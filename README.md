@@ -16,6 +16,9 @@ Contains all individual demonstration projects. Each sub-folder is self-containe
    - `utils.py`: Helper functions for processing daily returns, date handling, etc.
    - `README.md`: Provides usage instructions for the Sharpe Ratio demo.
 
+3. **Stock Price Prediction**:
+   - Uses Linear Regression to predict stock prices based on historical data.
+
 There is also a `README.md` directly under `demos/` which can include general notes about the structure of the demos folder.
 
 ### 2. `scripts/`
