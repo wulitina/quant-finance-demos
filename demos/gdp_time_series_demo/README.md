@@ -130,14 +130,16 @@ In this project, forecasting uses the ARIMA model to predict GDP growth for upco
 ### 3. Evaluation Metrics
 To measure the accuracy of predictions, we use:
 - **Mean Squared Error (MSE)**: Quantifies the average squared difference between actual and predicted values.
-  \[
-  MSE = \frac{1}{n} \sum_{i=1}^n (y_i - \hat{y}_i)^2
-  \]
+
+$$
+\text{MSE} = \frac{1}{n} \sum_{i=1}^n (y_i - \hat{y}_i)^2
+$$
 
 - **Mean Absolute Error (MAE)**: Measures the average absolute difference between actual and predicted values.
-  \[
-  MAE = \frac{1}{n} \sum_{i=1}^n |y_i - \hat{y}_i|
-  \]
+
+$$
+\text{MAE} = \frac{1}{n} \sum_{i=1}^n |y_i - \hat{y}_i|
+$$
 
 ---
 
